@@ -178,3 +178,7 @@ This network graph shows:
 3. The internal Hyper-V switch (k8s-Switch) connecting all the Kubernetes nodes.
 4. The master node and two worker nodes, each with their specific IP addresses, all connected to the internal switch.
 
+
+Setup kubernetes on VirtualBox using Vagrant | Kubernetes Installation master and worker nodes
+https://www.youtube.com/watch?v=phDeLEUUZWE
+
