@@ -9,6 +9,13 @@ docker exec -it kind-external-load-balancer sh  [ this command for control-plane
 ls
 ps -ef [ see output haproxy ]
 
+kubetl get sc
+
+docker network inspect --format "{{(index .IPAM.Config 0).Gateway}}" kind
+docker network inspect --format "{{index .IPAM.Config}}" kind
+docker network inspect --format "{{.IPAM.Config}}" kind
+docker network inspect -f "{{.IPAM.Config}}" kind
+
 # [ Kube 43.2 ] Getting started with KinD | Local multi-node k8s cluster in Docker containers
 https://www.youtube.com/watch?v=kkW7LNCsK74&t=138s
  
