@@ -17,6 +17,7 @@ docker network inspect --format "{{.IPAM.Config}}" kind
 docker network inspect -f "{{.IPAM.Config}}" kind
 
 https://mauilion.dev/posts/kind-metallb/
+https://medium.com/groupon-eng/loadbalancer-services-using-kubernetes-in-docker-kind-694b4207575d
 
 # [ Kube 43.2 ] Getting started with KinD | Local multi-node k8s cluster in Docker containers
 https://www.youtube.com/watch?v=kkW7LNCsK74&t=138s
