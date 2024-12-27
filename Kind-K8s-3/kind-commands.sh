@@ -4,6 +4,8 @@ kind delete cluster --name multi-node-cluster
 kind delete cluster --name=multi-node-cluster
 kind get clusters
 kubectl cluster-info
+kubectl config view | grep clustername  [ this command for if you have 2 or more clusters in kind ]
+kubectl use-context clustername
 docker ps -a
 docker network ls
 docker exec -it kind-external-load-balancer sh  [ this command for control-plane 2 or 3 extra configuration ]
