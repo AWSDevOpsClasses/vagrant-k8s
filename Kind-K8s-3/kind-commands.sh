@@ -1,6 +1,7 @@
 
 kind create cluster --name=multi-node-cluster --config=kind-config.yaml
 kind delete cluster --name multi-node-cluster
+kind delete cluster --name=multi-node-cluster
 kind get clusters
 kubectl cluster-info
 docker ps -a
