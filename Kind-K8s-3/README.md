@@ -9,6 +9,7 @@
 # mkdir C:/kind
 # Move-Item .\kind-windows-amd64.exe c:\kind\kind.exe
 # Set Path in edit environment variables
+# C:\tools\kind
 
 # Day 6/40 - Kubernetes Multi Node Cluster Setup Step By Step | Kind Tutorial
 # https://www.youtube.com/watch?v=RORhczcOrWs
