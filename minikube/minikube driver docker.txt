@@ -1,3 +1,5 @@
+# minikube multi node
+minikube start --nodes 2 -p multinode
 minikube start --driver=docker
 minikube start --kubernetes-version=v1.26.1 --driver=docker
 
