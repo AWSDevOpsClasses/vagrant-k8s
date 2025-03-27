@@ -4,7 +4,7 @@ minikube start --driver=docker
 minikube start -p argowf --driver=docker [ p means profile ]
 minikube start --kubernetes-version=v1.26.1 --driver=docker
 minkiube list
-
+minikube delete --purge
 http://minikube.sigs.k8s.io/docs/drivers/docker/
 
 minikube installation on windows
